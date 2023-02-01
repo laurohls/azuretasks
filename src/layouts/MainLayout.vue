@@ -14,15 +14,15 @@
       <q-list bordered padding class="rounded-borders">
         <q-item-label header> Menu principal </q-item-label>
 
-        <q-item clickable v-ripple>
+        <q-item to="/atividades" clickable v-ripple>
           <q-item-section> Atividades </q-item-section>
         </q-item>
 
-        <q-item clickable v-ripple>
+        <q-item to="/mencoes" clickable v-ripple>
           <q-item-section> Menções Ativas </q-item-section>
         </q-item>
 
-        <q-item clickable v-ripple>
+        <q-item to="/" clickable v-ripple>
           <q-item-section> Comentários Ativos </q-item-section>
         </q-item>
       </q-list>
