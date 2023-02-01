@@ -4,7 +4,7 @@
       <q-toolbar>
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title> Azure Tasks </q-toolbar-title>
+        <q-toolbar-title> Tarefas do Azure </q-toolbar-title>
 
         <div>PSG Tecnologia</div>
       </q-toolbar>
